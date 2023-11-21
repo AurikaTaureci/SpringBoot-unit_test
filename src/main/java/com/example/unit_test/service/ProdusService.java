@@ -26,6 +26,12 @@ public class ProdusService {
 
     }
 
+    public double getStockValue(){
+        return produsRepository.getProduse()
+                .stream()
+                .map(p->p.getPret())
+                .reduce(0.0,Double::sum); // operatie terminala care intoare un double
+    }
     public Set<Produs> getProduse(){
         return  produsRepository.getProduse();
     }

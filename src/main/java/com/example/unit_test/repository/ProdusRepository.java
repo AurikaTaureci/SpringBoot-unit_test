@@ -18,7 +18,7 @@ public class ProdusRepository {
         produsSet.add(new Produs("Masa",150.69, Categorie.GRADINA));
         produsSet.add(new Produs("Frigider",2699.99, Categorie.ELECTORCASNIC));
         produsSet.add(new Produs("Parchet",89.39, Categorie.MATERIAL_CONSTRUCTIE));
-        produsSet.add(new Produs("Biscuti",16.99, Categorie.ALIMENTAR));
+        produsSet.add(new Produs("Biscuiti",16.99, Categorie.ALIMENTAR));
         produsSet.add(new Produs("Masina de spalat vase",2999.29, Categorie.ELECTORCASNIC));
         produsSet.add(new Produs("Pantaloni",236.99, Categorie.VESTIMENTAR));
         produsSet.add(new Produs("Scaun",136.99, Categorie.GRADINA));
